@@ -6,20 +6,37 @@ import Contacts from "./contacts.json";
 
 function App() {
   const [contacts, setContacts] = useState(Contacts.slice(0, 5));
-  const randomContacts = Contacts.slice(5)
+  const randomContacts = Contacts.slice(5);
 
-  const getRandomContact = ()=>{
-    const newRandom = Math.floor(Math.random() * (randomContacts.length))
-    const randomContact = randomContacts.splice(newRandom, 1)[0]
-    setContacts([...contacts, randomContact])
-  }
+  const getRandomContact = () => {
+    const newRandom = Math.floor(Math.random() * randomContacts.length);
+    const randomContact = randomContacts.splice(newRandom, 1)[0];
+    setContacts([...contacts, randomContact]);
+  };
 
+  const sortName = () => {
+    const sortedNames = contacts.sort((a, b) => {
+      return a.name.localeCompare(b.name);
+    });
+
+    setContacts([...sortedNames]);
+  };
+
+  const sortPopularity = () => {
+    const sortedList = contacts.sort((a, b) => {
+      return b.popularity - a.popularity;
+    });
+
+    setContacts([...sortedList]);
+  };
 
   return (
     <div className="App">
       <h1>IronContacts</h1>
       <div>
         <button onClick={() => getRandomContact()}> Add Random Contact </button>
+        <button onClick={() => sortName()}>Sort by name</button>
+        <button onClick={() => sortPopularity()}>Sort by popularity</button>
       </div>
       <table>
         <thead>
