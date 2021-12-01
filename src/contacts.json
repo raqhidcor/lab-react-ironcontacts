@@ -88,14 +88,6 @@
     "wonEmmy": false
   },
   {
-    "name": "Ryan Reynolds",
-    "pictureUrl": "https://image.tmdb.org/t/p/w500/h1co81QaT2nJA41Sb7eZwmWl1L2.jpg",
-    "popularity": 9.457546,
-    "id": "56792412-8fda-4e10-b5ec-9cade83b167d",
-    "wonOscar": false,
-    "wonEmmy": false
-  },
-  {
     "name": "Lauren Cohan",
     "pictureUrl": "https://image.tmdb.org/t/p/w500/ygzDi7DIY6fHHxAcxvS7Z5kMFHe.jpg",
     "popularity": 9.191322,
@@ -109,14 +101,6 @@
     "popularity": 9.236478,
     "id": "32ec545d-4939-403a-acd7-dd4bca6e94dd",
     "wonOscar": false,
-    "wonEmmy": false
-  },
-  {
-    "name": "Ben Affleck",
-    "pictureUrl": "https://image.tmdb.org/t/p/w500/cPuPt6mYJ83DjvO3hbjNGug6Fbi.jpg",
-    "popularity": 9.157077,
-    "id": "1599707e-5f49-4529-b920-db3831419b04",
-    "wonOscar": true,
     "wonEmmy": false
   },
   {
@@ -415,14 +399,6 @@
     "id": "7cdd5950-55e0-4d9e-8959-2181ed5f12e6",
     "wonOscar": false,
     "wonEmmy": false
-  },
-  {
-    "name": "Ron Howard",
-    "pictureUrl": "https://image.tmdb.org/t/p/w500/qdtdnNLSsaXZmpwOqXuQB3xU2uL.jpg",
-    "popularity": 6.984089,
-    "id": "6099d30b-2781-4b32-85af-5339a13a97b3",
-    "wonOscar": true,
-    "wonEmmy": true
   },
   {
     "name": "Orlando Bloom",
